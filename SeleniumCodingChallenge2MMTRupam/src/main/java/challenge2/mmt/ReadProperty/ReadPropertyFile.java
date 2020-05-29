@@ -18,7 +18,7 @@ public class ReadPropertyFile {
 			returnProperty=property.getProperty(PropertyName);
 			if(returnProperty==null)
 			{
-				throw new Exception("Property with names and address : "+PropertyName+" not found in "+System.getProperty("user.dir")+"\\src//main//resources//TestRunDetails.properties Please check again");
+				throw new Exception("Property with names and address listed below : "+PropertyName+" not found in "+System.getProperty("user.dir")+"\\src//main//resources//TestRunDetails.properties Please check again");
 			}
 		
 		} catch (FileNotFoundException e) {
